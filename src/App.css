@@ -233,6 +233,15 @@ body {
   color: #7e8695;
 }
 
+.adoption-panel .panel-head h2,
+.tips-panel .panel-head h2 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.08;
+  font-weight: 550;
+  color: #1a2130;
+}
+
 .panel-dot-btn {
   margin-top: 2px;
   border: none;
