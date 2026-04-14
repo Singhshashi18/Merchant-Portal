@@ -13,6 +13,7 @@ import {
   X,
 } from "lucide-react";
 import li1 from "../assets/images/li1.png";
+import leftImg from "../assets/images/left.png";
 import billingIcon from "../assets/images/billing.png";
 
 export default function Navbar() {
@@ -55,10 +56,7 @@ export default function Navbar() {
         <img src={li1} alt="Glyde" className="brand-lockup" />
 
         <div className="nav-right">
-          <div className="fridays-badge" aria-label="TGI Fridays">
-            <span>TGI</span>
-            <strong>FRIDAYS</strong>
-          </div>
+          <img src={leftImg} alt="Glyde" className="right-brand-lockup right-brand-match" />
 
           <button type="button" className="location-select">
             <span className="location-caption">Location</span>

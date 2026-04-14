@@ -55,7 +55,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 2px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -570,6 +570,13 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.right-brand-match {
+  width: 138px;
+  height: 54px;
+  align-self: center;
+  margin-top: 0;
 }
 
 .fridays-badge {
