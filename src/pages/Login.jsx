@@ -30,12 +30,12 @@ export default function Login() {
           <form className="login-form" onSubmit={handleLogin}>
             <label className="login-input-group">
               <span>Email address</span>
-              <input type="email" defaultValue="john.doe@email.com" />
+              <input type="email" placeholder="john.doe@email.com" />
             </label>
 
             <label className="login-input-group">
               <span>Password</span>
-              <input type="password" defaultValue="********" />
+              <input type="password" placeholder="********" />
             </label>
 
             <button type="submit" className="login-submit-btn">

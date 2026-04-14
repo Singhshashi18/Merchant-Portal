@@ -1,9 +1,7 @@
 
 
-import { useLocation } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import { Routes,Route } from "react-router-dom";
-import { Navigate } from "react-router-dom";
 import Login from "./pages/Login";
 import Transactions from "./pages/Transactions";
 import Dashboard from "./pages/Dashboard";
