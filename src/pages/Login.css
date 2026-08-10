@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap");
+
+.login-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f5f7;
+  padding: 24px;
+  font-family: "Nunito Sans", "Segoe UI", sans-serif;
+}
+
+.login-shell {
+  width: 100%;
+  max-width: 444px;
+  min-height: 584px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login-branding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.login-logo-pill {
+  width: 167px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-logo-image {
+  width: 167px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.login-brand-subtitle {
+  margin: 9px 0 0;
+  font-size: 16px;
+  line-height: 1.15;
+  font-weight: 500;
+  color: #606874;
+}
+
+.login-card {
+  width: 100%;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 20px 40px rgba(18, 35, 62, 0.1);
+  padding: 30px 26px 28px;
+}
+
+.login-card h1 {
+  margin: 0;
+  color: #1e2431;
+  font-size: 42px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.login-contact {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: #748090;
+  line-height: 1.25;
+}
+
+.login-contact a,
+.login-help-text a,
+.login-forgot-link {
+  color: #13c3b9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-form {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.login-input-group span {
+  font-size: 12px;
+  line-height: 1;
+  color: #8f98a6;
+}
+
+.login-input-group input {
+  width: 100%;
+  height: 52px;
+  border-radius: 10px;
+  border: 1px solid #d5dbe3;
+  padding: 0 10px;
+  font-size: 16px;
+  line-height: 1;
+  color: #1f2633;
+  outline: none;
+}
+
+.login-input-group input:focus {
+  border-color: #13c3b9;
+  box-shadow: 0 0 0 2px rgba(19, 195, 185, 0.15);
+}
+
+.login-submit-btn {
+  margin-top: 2px;
+  width: 100%;
+  height: 44px;
+  border: none;
+  border-radius: 12px;
+  background: #1dc8bf;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.login-submit-btn:hover {
+  background: #17b9b0;
+}
+
+.login-forgot-link {
+  display: block;
+  width: fit-content;
+  margin: 20px auto 0;
+  font-size: 12px;
+}
+
+.login-help-text {
+  margin: 20px 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: #495464;
+}
+
+@media (max-width: 540px) {
+  .login-screen {
+    padding: 16px;
+  }
+
+  .login-shell {
+    min-height: auto;
+  }
+
+  .login-brand-subtitle {
+    font-size: 20px;
+  }
+
+  .login-logo-pill {
+    width: 154px;
+    height: 55px;
+  }
+
+  .login-logo-image {
+    width: 154px;
+    height: 55px;
+  }
+
+  .login-card {
+    padding: 24px 18px;
+  }
+
+  .login-card h1 {
+    font-size: 32px;
+  }
+
+  .login-contact,
+  .login-input-group span,
+  .login-forgot-link,
+  .login-help-text {
+    font-size: 16px;
+  }
+
+  .login-input-group input,
+  .login-submit-btn {
+    font-size: 16px;
+  }
+}
